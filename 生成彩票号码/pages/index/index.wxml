@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="box">
+    <view class="title">生成彩票号码</view>
+    <view>电科19-2刘倩</view>
+    <view>七位彩票号码为：</view>
+    <view wx:for="{{rand}}">{{item}}</view>
+    <button type="primary" bindtap='newRand'>产生新的号码</button>
+</view>
