@@ -1,0 +1,8 @@
+/**index.wxss**/
+input{
+  border-bottom: 1px solid blue;/*下边框线及其颜色*/
+  margin:20px 0;/*上下外边距，左右外边距*/
+}
+button{
+  margin: 20px;/*上边距*/
+}
